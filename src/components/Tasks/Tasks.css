@@ -1,0 +1,48 @@
+.tasks-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #ededed;
+  font-size: 24px;
+  color: #4d4d4d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.task-item:hover {
+  background-color: #f9f9f9;
+}
+
+.task-checkbox {
+  margin-right: 16px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-circle {
+  font-size: 24px;
+  color: #e6e6e6;
+}
+
+.completed-icon {
+  font-size: 20px;
+  color: #5dc2af;
+}
+
+.task-text {
+  flex: 1;
+}
+
+.task-item.completed .task-text {
+  color: #d9d9d9;
+  text-decoration: line-through;
+}

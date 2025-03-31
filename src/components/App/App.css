@@ -1,0 +1,35 @@
+.todo-app {
+  max-width: 550px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #4d4d4d;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 
+}
+
+.app-title {
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(175, 47, 47, 0.55);
+  margin: 20px 0;
+}
+
+.todo-container {
+  background: white;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 
+              0 10px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 550px) {
+  .todo-app {
+    margin: 0;
+    max-width: 100%;
+  }
+  
+  .app-title {
+    font-size: 60px;
+  }
+}
