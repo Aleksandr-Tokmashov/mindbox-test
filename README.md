@@ -10,3 +10,7 @@
 ### `npm i && npm run start`
 
 Перейдите по адресу http://localhost:5173/mindbox-test/ чтобы посмотреть приложение в браузере.
+
+## Запуск тестов
+Запустите тесты jest:
+### `npm run test`
