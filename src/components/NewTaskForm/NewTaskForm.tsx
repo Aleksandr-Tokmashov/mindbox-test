@@ -23,7 +23,7 @@ export const NewTaskForm: FC<NewTaskFormProps> = ({ addNewTask }) => {
     const task: TTask = {
       name: inputValue,
       isCompleted: false,
-      id: crypto.randomUUID(),
+      id: Math.random().toString(36).substring(2, 9),
     };
     addNewTask(task);
     setInputValue("");
